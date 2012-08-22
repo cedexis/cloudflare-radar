@@ -1,6 +1,6 @@
 {
     "main":"public/javascripts/cedexis-radar.js",
-    "name":"Counters Back",
+    "name":"Cedexis Radar",
     "description": "Cedexis Radar integration for Cloudflare",
     "version": "0.1",
     "account": {
