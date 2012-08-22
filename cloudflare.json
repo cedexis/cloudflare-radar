@@ -1,0 +1,30 @@
+{
+    "main":"public/javascripts/cedexis-radar.js",
+    "name":"Counters Back",
+    "description": "Cedexis Radar integration for Cloudflare",
+    "version": "0.1",
+    "account": {
+        "callback_url": "http://portal.dev.cedexis.com/api/partners/cloudflare",
+        "user_fields": ["email"]
+    },
+    "config":{
+        "assets":{
+            "logos" : {
+                "200px": "./public/images/logo-200.png",
+                "132px": "./public/images/logo-132.png"
+            },
+            "detail_page" : [
+                "./public/images/example.png"
+            ]
+        },
+        "interface": [
+            {
+                "type": "string",
+                "name": "Company Name",
+                "description": "Please tell us your company name.",
+                "id": "company",
+                "domain_request": true
+            }
+        ]
+    }
+}
