@@ -6,6 +6,6 @@ CloudFlare.define("cedexis-radar", ["cedexis-radar/config"],
             a.async = 'async';
             a.src = '//' + "portal.dev.cedexis.com/api/partners/cloudflare/radar?domain_id=" + c.domain_id;
             d.body.appendChild(a);
-        })(document, {domain_id:config && config.domain_id});
+        })(document, {domain_id:config.domain_id});
     }
 );

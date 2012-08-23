@@ -2,7 +2,7 @@
     "main":"public/javascripts/cedexis-radar.js",
     "name":"Cedexis Radar",
     "description": "Cedexis Radar integration for Cloudflare",
-    "version": "0.2",
+    "version": "0.3",
     "account": {
         "callback_url": "http://portal.dev.cedexis.com/api/partners/cloudflare",
         "user_fields": ["email"]
