@@ -1,5 +1,8 @@
 CloudFlare.define("cedexis-radar", ["cedexis-radar/config"],
     function(config) {
+        console.log("Test.");
+        console.log(config);
+
         var a = document.createElement('script');
         a.type = 'text/javascript';
         a.async = 'async';
