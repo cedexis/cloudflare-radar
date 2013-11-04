@@ -3,6 +3,7 @@
     "name":"Cedexis Radar",
     "description": "Cedexis Radar integration for Cloudflare",
     "version": "0.6",
+    "category": "monitoring",
     "account": {
         "callback_url": "http://portal.dev.cedexis.com/api/partners/cloudflare",
         "user_fields": ["email"]
