@@ -5,7 +5,7 @@
     "version": "0.6",
     "category": "monitoring",
     "account": {
-        "callback_url": "http://portal.dev.cedexis.com/api/partners/cloudflare",
+        "callback_url": "https://portal.cedexis.com/api/partners/cloudflare.json",
         "user_fields": ["email"]
     },
     "config":{
