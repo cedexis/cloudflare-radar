@@ -4,7 +4,6 @@
     "description": "Collect, monitor, report and alert on your website performance as experienced by your users.",
     "version": "0.7",
     "category": "monitoring",
-    "implements": "AMD",
     "contributors":
     [
             {
