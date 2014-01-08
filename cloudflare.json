@@ -1,14 +1,28 @@
 {
     "main":"public/javascripts/cedexis-radar.js",
-    "name":"Cedexis Radar",
-    "description": "Cedexis Radar integration for Cloudflare",
+    "name":"Cedexis Real User Measurements",
+    "description": "Collect, monitor, report and alert on your website performance as experienced by your users.",
     "version": "0.7",
     "category": "monitoring",
+    "implements": "AMD",
+    "contributors":
+    [
+            {
+                    "name": "Gregory Grillo",
+                    "email": "support@cedexis.com"
+            }
+    ],
+    "repository":
+    {
+            "type": "git",
+            "url": "https://github.com/cedexis/cloudflare-radar.git"
+    },
     "account": {
         "callback_url": "https://portal.cedexis.com/api/partners/cloudflare.json",
         "user_fields": ["email"]
     },
-    "config":{
+    "config":
+    {
         "assets":{
             "logos" : {
                 "200px": "./public/images/logo-200.png",
@@ -18,7 +32,8 @@
                 "./public/images/example.png"
             ]
         },
-        "interface": [
+        "interface": 
+        [
             {
                 "type": "string",
                 "name": "Company Name",
