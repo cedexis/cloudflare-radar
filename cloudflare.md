@@ -7,7 +7,7 @@ When you want to see your performance metrics, the CloudFlare marketplace will s
 ![Example](/images/apps/cedexis/plt-charts-example.png "Sample PLT Charts")
 
 #### Live Tour
-If you would like to see a live sample on how all the top Internet providers are performing, check out our [Country Reports](http://www.cedexis.com/reports/#?report=isp&country=US).
+If you would like to see a live sample on how all the top Internet providers are performing, check out our [Country Reports](http://www.cedexis.com/reports/#?report=isp&country=US).  This is just a small sample of information available to the Cedexis community.
 
 #### PLT Alerts Subscription Services
 When you sign up for our subscription services, you will receive real time (or summary) email alerts when page load times for your website exceed a configurable <em>threshold</em>.  With PLT Alerts, you can be proactive about your website performance and also closely monitor SLAs for cloud service providers.
