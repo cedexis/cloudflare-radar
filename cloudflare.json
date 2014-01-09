@@ -1,15 +1,15 @@
 {
     "main":"public/javascripts/cedexis-radar.js",
     "name":"Cedexis Real User Measurements",
-    "description": "Collect, monitor, report and alert on your website performance as experienced by your users.",
-    "version": "0.7",
+    "description": "Collect, monitor, report and alert on your website performance as experienced by your end users.",
+    "version": "0.8",
     "category": "monitoring",
     "contributors":
     [
-            {
-                    "name": "Gregory Grillo",
-                    "email": "support@cedexis.com"
-            }
+        {
+            "name": "Gregory Grillo",
+            "email": "support@cedexis.com"
+        }
     ],
     "repository":
     {
@@ -20,6 +20,29 @@
         "callback_url": "https://portal.cedexis.com/api/partners/cloudflare.json",
         "user_fields": ["email"]
     },
+
+    "billing": {
+        "type": "zone",
+        "plans":[
+            {
+                "name" : "WebRUM Free",
+                "price": "0"
+            },
+            {
+                "name" : "WebRUM Pro",
+                "price" : "10.00"
+            },
+            {
+                "name" : "WebRUM Business",
+                "price" : "100.00"
+            },
+            {
+                "name" : "WebRUM Enterprise",
+                "price" : "1000.00"
+            }
+        ]
+    },
+
     "config":
     {
         "assets":{
@@ -28,11 +51,36 @@
                 "132px": "./public/images/logo-132.png"
             },
             "detail_page" : [
-                "./public/images/example.png"
+                "./public/images/example.png",
+                "./public/images/alerts-screen.png",
+                "./public/images/plt-charts.png"
             ]
+        },
+        "details":
+        {
+            "Category": "Monitoring",
+            "Language": "English, French, Portuguese, Dutch, Chinese, Japanese",
+            "Price" :  "WebRUM Free $0, WebRUM Pro $10, WebRUM Business $100 and WebRUM Enterprise $1,000 ",
+            "Restrictions": "None",
+            "TOS": "http://www.cedexis.com/legal/terms.html",
+            "has_js": true
         },
         "interface": 
         [
+            {
+                "type": "string",
+                "name": "Name",
+                "description": "Please tell us your name.",
+                "id": "name",
+                "domain_request": true
+            },
+            {
+                "type": "string",
+                "name": "Phone Number",
+                "description": "Please tell us your phone number.",
+                "id": "phone",
+                "domain_request": true
+            },
             {
                 "type": "string",
                 "name": "Company Name",
