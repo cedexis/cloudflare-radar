@@ -2,7 +2,7 @@ Cedexis collects over a <em>billion</em> web performance metrics a day from webs
 
 #### How it Works
 By signing up for the Cedexis RUM app via CloudFlare, a small javascript file will be inserted into your domain web pages.  The javascript file runs quietly in the background collecting a variety of measurement statistics about your website performance.
-Here is a sample <em>(not real)</em> of the javascript tag:
+Here is a sample <em>(not real)</em> javascript tag:
 
     <script type="text/javascript">
     (function(w, d) { var a = function() { var a = d.createElement('script'); a.type = 'text/javascript';
@@ -18,7 +18,7 @@ When you want to see performance metrics, the CloudFlare marketplace will sign y
 
 #### PLT Charts
 By deploying our javascript tag, we are able to collect website performance measurements as seen by your end users anywhere in the world.
-The PLT performance measurements we collect are: <em>Http Total Page Load Time, Http Redirect, Http DNS lookup, HTTP Connect, HTTP Send/Receive, HTTP DOM and HTTP Load</em>.  When viewing chart reports, you can filter data on any of the PLT measurements as well as country/region, network, URL or browser type.
+Some of the PLT performance measurements we collect are: <em>total Page Load Time, connect time, DNS lookup, send/receive and DOM load. </em>.  When viewing chart reports, you can filter data on any of the PLT measurements as well as country/region, network, URL or browser type.
 ![Example](/images/apps/cedexis_radar/plt-charts.png "Sample PLT Charts")
 
 #### PLT Alerts
@@ -32,7 +32,7 @@ PLT Alerts allow you to set up an email alert notification or daily summary when
 - Enterprise $1,000 - PLT Charts, unlimited Alerts
 
 #### Live Tour
-If you would like to see a live sample of how the top Internet providers are performing, check out our [Country Reports](http://www.cedexis.com/reports/#?report=isp&country=US).  We also have a [network statistics widget](http://www.cedexis.com/reports/widget.html) that is freely available for anyone to include in their website.  This is just a small sample of information available to you as a Cedexis community member.
+If you would like to see a live sample of how the top Internet providers are performing, check out our [Country Reports](http://www.cedexis.com/reports/#?report=isp&country=US).  We also provide a [network statistics widget](http://www.cedexis.com/reports/widget.html) that is freely available for anyone to include in their website.  This is just a small sample of information available to you as a Cedexis community member.
 
 #### About Cedexis
 We are passionate about making the Internet faster.  We are also passionate about web site performance, statistics and data visualization.  We've only scratched the surface on what Cedexis can do for you.  Check out our [website](http://www.cedexis.com), we'd love to hear from you!

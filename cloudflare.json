@@ -2,7 +2,7 @@
     "main":"public/javascripts/cedexis-radar.js",
     "name":"Cedexis Real User Measurements",
     "description": "Collect, monitor, report and alert on your website performance as experienced by your end users.",
-    "version": "0.8",
+    "version": "0.8.1",
     "category": "monitoring",
     "contributors":
     [
