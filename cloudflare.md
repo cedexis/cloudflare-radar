@@ -18,7 +18,7 @@ When you want to see performance metrics, the CloudFlare marketplace will sign y
 
 #### PLT Charts
 By deploying our javascript tag, we are able to collect website performance measurements as seen by your end users anywhere in the world.
-Some of the PLT performance measurements we collect are: <em>total Page Load Time, connect time, DNS lookup, send/receive and DOM load. </em>.  When viewing chart reports, you can filter data on any of the PLT measurements as well as country/region, network, URL or browser type.
+Some of the PLT performance measurements we collect are: <em>total page load time, connect time, DNS lookup, send/receive, DOM load</em> and several other PLT measurements.  When viewing chart reports, you can filter data on any of the PLT measurements as well as country/region, network, URL or browser type.
 ![Example](/images/apps/cedexis_radar/plt-charts.png "Sample PLT Charts")
 
 #### PLT Alerts
