@@ -25,19 +25,19 @@
         "type": "zone",
         "plans":[
             {
-                "name" : "WebRUM Free",
+                "name" : "Free",
                 "price": "0"
             },
             {
-                "name" : "WebRUM Pro",
+                "name" : "Pro",
                 "price" : "10.00"
             },
             {
-                "name" : "WebRUM Business",
+                "name" : "Business",
                 "price" : "100.00"
             },
             {
-                "name" : "WebRUM Enterprise",
+                "name" : "Enterprise",
                 "price" : "1000.00"
             }
         ]
@@ -59,8 +59,8 @@
         "details":
         {
             "Category": "Monitoring",
-            "Language": "English, French, Portuguese, Dutch, Chinese, Japanese",
-            "Price" :  "WebRUM Free $0, WebRUM Pro $10, WebRUM Business $100 and WebRUM Enterprise $1,000 ",
+            "Language": "English, French, German, Portuguese, Chinese, Japanese",
+            "Price" :  "Free $0, Pro $10, Business $100 and Enterprise $1,000",
             "Restrictions": "None",
             "TOS": "http://www.cedexis.com/legal/terms.html",
             "has_js": true
@@ -69,22 +69,22 @@
         [
             {
                 "type": "string",
-                "name": "Name",
-                "description": "Please tell us your name.",
-                "id": "name",
+                "name": "firstName",
+                "description": "Your first name",
+                "id": "firstName",
                 "domain_request": true
             },
             {
                 "type": "string",
-                "name": "Phone Number",
-                "description": "Please tell us your phone number.",
-                "id": "phone",
+                "name": "lastName",
+                "description": "Your last name",
+                "id": "lastName",
                 "domain_request": true
             },
             {
                 "type": "string",
                 "name": "Company Name",
-                "description": "Please tell us your company name.",
+                "description": "Your company name",
                 "id": "company",
                 "domain_request": true
             }
