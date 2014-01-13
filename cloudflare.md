@@ -2,7 +2,7 @@ Cedexis collects over a <em>billion</em> web performance metrics a day from webs
 
 #### How it Works
 By signing up for the Cedexis RUM app via CloudFlare, a small javascript file will be inserted into your domain web pages.  The javascript file runs quietly in the background collecting a variety of measurement statistics about your website performance.
-Here is a sample <em>(not real)</em> javascript tag:
+When deployed to your website, the Javascript tag will look something like this:
 
     <script type="text/javascript">
     (function(w, d) { var a = function() { var a = d.createElement('script'); a.type = 'text/javascript';
