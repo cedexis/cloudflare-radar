@@ -2,7 +2,7 @@
     "main":"public/javascripts/cedexis-radar.js",
     "name":"Cedexis Real User Measurements",
     "description": "Collect, monitor, report and alert on your website performance as experienced by your end users.",
-    "version": "0.8.1",
+    "version": "0.8.2",
     "category": "monitoring",
     "contributors":
     [
@@ -62,29 +62,26 @@
             "Language": "English, French, German, Portuguese, Chinese, Japanese",
             "Price" :  "Free $0, Pro $10, Business $100 and Enterprise $1,000",
             "Restrictions": "None",
-            "TOS": "http://www.cedexis.com/legal/terms.html",
+            "Cedexis": "<a href='http://www.cedexis.com/legal/terms.html'>Terms of Service</a>",
             "has_js": true
         },
         "interface": 
         [
             {
                 "type": "string",
-                "name": "firstName",
-                "description": "Your first name",
+                "name": "First Name",
                 "id": "firstName",
                 "domain_request": true
             },
             {
                 "type": "string",
-                "name": "lastName",
-                "description": "Your last name",
+                "name": "Last Name",
                 "id": "lastName",
                 "domain_request": true
             },
             {
                 "type": "string",
                 "name": "Company Name",
-                "description": "Your company name",
                 "id": "company",
                 "domain_request": true
             }
